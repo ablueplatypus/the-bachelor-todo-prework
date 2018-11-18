@@ -4,6 +4,7 @@ def get_first_name_of_season_winner(data, season)
     puts key
   end
 puts season
+binding.pry
 end
 
 def get_contestant_name(data, occupation)
