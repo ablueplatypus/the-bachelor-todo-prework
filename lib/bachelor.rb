@@ -42,6 +42,10 @@ data.each do |seasons, arrays|
     contestants.each do |key, value|
       if value == hometown
         return contestants["occupation"]
+      end
+    end
+  end
+end
 end
 
 def get_average_age_for_season(data, season)
