@@ -34,6 +34,7 @@ data.each do |seasons, arrays|
     end
   end
 end
+return count
 end
 
 def get_occupation(data, hometown)
